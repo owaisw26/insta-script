@@ -1,0 +1,26 @@
+{
+  "name": "insta-script",
+  "version": "1.0.0",
+  "description": "Local CLI for finding Instagram accounts you follow that do not follow you back.",
+  "main": "src/index.js",
+  "bin": {
+    "insta-nonfollowers": "src/index.js"
+  },
+  "scripts": {
+    "nonfollowers": "node src/index.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "instagram",
+    "playwright",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
