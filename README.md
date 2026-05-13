@@ -53,7 +53,7 @@ npm run nonfollowers -- --username your_instagram_username
 Example:
 
 ```sh
-npm run nonfollowers -- --username owaisw_26
+npm run nonfollowers -- --username your_instagram_username
 ```
 
 Do not include the `@` symbol. If you do include it, the CLI will strip it automatically.
